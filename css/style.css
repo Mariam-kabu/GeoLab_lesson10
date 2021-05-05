@@ -1,0 +1,218 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*header*/
+body{
+	padding-top: 80px;
+}
+.header{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	-webkit-box-shadow: 0px 1px 8px #7E76F9;
+	        box-shadow: 0px 1px 8px #7E76F9;
+	border-radius: 0 0 50px 50px;
+}
+.logo{
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+.navigation{
+	margin-right: 150px;
+}
+.u-list{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.nav-li{
+	margin-left: 35px;
+}
+.nav-a{
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #372D64;
+}
+.bar-icon{
+	display: none;
+}
+/*section 1*/
+.section-1{
+	padding: 30px 100px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-evenly;
+	    -ms-flex-pack: space-evenly;
+	        justify-content: space-evenly;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.article{
+	margin-right: 300px;
+}
+.article-title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+	color: #42495B;
+	margin-bottom: 20px;
+}
+.content{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #7A839E;
+	margin-bottom: 70px;
+}
+.more-txt{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-family: 'Poppins', sans-serif;
+	background-color: #7E76F9;
+	font-size: 16px;
+	color: white;
+	max-width: 216px;
+	width: 100%;
+	border-radius: 25px;
+	padding: 13px;
+}
+.image{
+	max-width: 587px;
+	width: 100%;
+}
+/*section 2*/
+.section-header{
+	margin-top: 185px;
+	margin-left: 200px;
+}
+.section-title{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	color: #7E76F9;
+	margin-bottom: 10px;
+}
+.block-title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+	color: #42495B;
+}
+.parent-block{
+	padding: 90px 70px 180px 160px;
+ 	display: -webkit-box;
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-ms-flex-wrap: wrap;
+ 	    flex-wrap: wrap;
+ 	-webkit-box-pack: center;
+ 	    -ms-flex-pack: center;
+ 	        justify-content: center;
+}
+.par-block{
+	margin-right: 90px;
+	margin-bottom: 110px;
+	padding: 30px;
+	width: 367px;
+	height: auto;
+	border-radius: 36px;
+	-webkit-box-shadow: 0px 10px 20px #7E76F9;
+	        box-shadow: 0px 10px 20px #7E76F9;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.par-image-block{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-bottom: 38px;
+}
+.par-image{
+	width: 91px;
+}
+.par-content{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-bottom: 50px;
+}
+.par-title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	color: #42495B;
+	margin-bottom: 38px;
+}
+.paragraph{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 22px;
+	color: #42495B;
+}
+.see-more-block{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.see-more{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-family: 'Poppins', sans-serif;
+	background-color: #7E76F9;
+	border-radius: 25px;
+	-webkit-box-shadow: 0 3px 6px #7E76F9;
+	        box-shadow: 0 3px 6px #7E76F9;
+	font-size: 12px;
+	color: white;
+	padding: 7px;
+	width: 94px;
+}
